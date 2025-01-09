@@ -177,8 +177,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "
-○ ᴶᴼᴵᴺ ᴹʸ ᴮᴬᶜᴷᵁᴾ ˢᴱᴺᴾᴬᴵ
-○ ",
+○ 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ○ ",
                 url = ButtonUrl)
         ]
     ]
