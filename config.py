@@ -56,7 +56,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 
 # Auto delete time in seconds.
 AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
-AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "ꜱᴇɴᴘᴀɪ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇꜱ ᴛᴏ ʏᴏᴜʀ ✅ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ. ᴛʜɪꜱ ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 𝟮𝟱 ᴍɪɴᴜᴛᴇꜱ ⏱️
+AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "ꜱᴇɴᴘᴀɪ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇꜱ ᴛᴏ ʏᴏᴜʀ ✅ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ.ᴛʜɪꜱ ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 𝟮𝟱 ᴍɪɴᴜᴛᴇꜱ ⏱️
 ꜱᴏ ʙᴇ ᴡᴇʀᴇ ᴏꜰ ᴛʜɪꜱ.
 ")
 AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "ꜱᴇɴᴘᴀɪ ʏᴏᴜʀ ꜰɪʟᴇ ʜᴀꜱ ʙᴇᴇɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʏ ʀᴇᴍᴏᴠᴇᴅ . ᴛʜᴀɴᴋꜱ ꜰᴏʀ ʟᴇᴛᴛɪɴɢ ᴍᴇ ʜᴇʟᴘ ʏᴏᴜ. 😍 ✅")
