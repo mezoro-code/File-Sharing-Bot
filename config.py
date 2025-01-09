@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "")
+FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "-1002321045467,-1002246418579")
 FORCE_SUB_CHANNEL = [int(channel_id) for channel_id in FORCE_SUB_CHANNEL.split(",") if channel_id]
 
 # Join request enable
