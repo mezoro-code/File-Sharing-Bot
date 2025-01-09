@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nꜱᴇɴᴘᴀɪ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ꜱᴇʀᴠᴇ ʏᴏᴜ ᴘʟᴇᴀꜱᴇ ʙᴇ ɢᴇɴᴛʟᴇ.ʏᴏᴜ ᴄᴀɴ ʀᴇQᴜᴇꜱᴛ ᴍᴇ ꜰᴏʀ ᴀɴʏ ꜰɪʟᴇ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴊᴜꜱᴛ ʙᴇ ᴋɪɴᴅ ᴀɴᴅ ɢᴇɴᴛʟᴇ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ꜱᴇɴᴘᴀɪ ꜰᴏʀ ᴀɴʏᴛʜɪɴɢ ᴊᴜꜱᴛ ɢᴏ ᴛᴏ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ʙɪᴏ ᴀɴᴅ ᴍᴇꜱꜱᴀɢᴇ ʜɪᴍ ꜰᴏʀ ᴀɴʏ ʜᴇɴᴛᴀɪ ᴀɴɪᴍᴇ.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
